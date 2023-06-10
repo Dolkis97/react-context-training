@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react';
 import { AppContext } from './AppContext';
 const UserInfo = () => {
@@ -7,7 +6,6 @@ const UserInfo = () => {
   return (
     <div>
       <p>Użytkownik jest {isUserLogged ? 'Zalogowany' : 'niezalogowany'}</p>
-      
     </div>
   );
 };
